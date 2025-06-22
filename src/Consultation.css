@@ -1,0 +1,123 @@
+.waiting-list-container {
+  width: 100%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hc1{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.info-message {
+  background-color: #eaf7fd;
+  padding: 10px;
+  border-radius: 4px;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.info-message i {
+  margin-right: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.search-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.search-container label {
+  margin-right: 5px;
+}
+
+.search-container input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.patients-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 1px;
+}
+
+.patients-table th,
+.patients-table td {
+  border: 1px ;
+  padding: 8px;
+  text-align: left;
+}
+table button{
+  height: 30px;
+}
+
+.patients-table th {
+  background-color: #f2f2f2;
+}
+
+.patients-table .no-data {
+  text-align: center;
+  color: #999;
+}
+
+  /* Add Hover Effect for Table Rows */
+  .patient-table tbody tr:hover { /*want change */
+    background-color:#ccc; /* Light gray background on hover */
+    cursor: pointer;
+  }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.previous-consaltation,
+.next-consaltation{
+  background-color: #f8f8f8;
+  color:#000;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.previous-consaltation:hover,
+.next-consaltation:hover{
+  background-color: #999;  /* button click chnage color */
+}
+
+
+.box{
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  width:78%;
+  position: absolute;
+  top: 20%;
+  right: 1%;
+  border: 1px solid #ccc;
+  
+}
