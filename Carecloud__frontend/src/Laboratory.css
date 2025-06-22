@@ -1,0 +1,166 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Main container */
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  
+  
+  .sidebar .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar .menu li {
+    padding: 10px 0;
+  }
+  
+  .sidebar .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar .badge {
+    background-color: #ff5050;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  /* Main content area */
+  .main-content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header .user-info p {
+    margin: 0;
+  }
+  
+  .header .user-info .role {
+    color: gray;
+    font-size: 12px;
+  }
+
+  .Header-3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 100%;
+    
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  /* Warnings styling */
+  .warnings {
+    background-color: #ffe5e5;
+    color: red;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+  }
+  .no-border-table {
+    border-collapse: collapse;
+    width: 100%; /* or any width you prefer */
+  }
+  
+  .no-border-table th,
+  .no-border-table td {
+    border: 1px; /* Removes the table lines */
+    padding: 8px 1px;
+    text-align: left;
+  }
+
+  
+  
+  
+  /* Table styling */
+  .patient-table {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    width:78%;
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    border: 1px solid #ccc;
+    
+  }
+
+  /* Add Hover Effect for Table Rows */
+  .no-border-table tbody tr:hover { /*want change */
+  background-color:#ccc; /* Light gray background on hover */
+  cursor: pointer;
+}
+
+  
+  .patient-table .table-header h3 {
+    margin: 0;
+  }
+  
+  .patient-table .table-header p {
+    color: gray;
+    font-size: 12px;
+  }
+  .patient-table th{
+    background-color: #f2f2f2;
+
+  }
+  
+  .search-box {
+    text-align: right;
+     margin-bottom: 20px;
+  }
+  
+  .search-box label{
+    margin-right: 5px;
+  }
+  
+  .search-box input {
+    padding:5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

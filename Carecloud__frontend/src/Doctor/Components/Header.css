@@ -1,0 +1,88 @@
+/* Container for the header */
+.header-container {
+    position: fixed; /* Stick the header at the top */
+    top: 1%; /* Position it at the top of the page */
+    left: 20%; /* Align to the left edge */
+    width: 80%; /* Make it full width */
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100; /* Ensure the header stays on top of other content */
+    line-height: 0.8;
+  }
+
+ 
+  
+  
+  
+
+/* Menu icon styling */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-bars {
+  font-size: 24px;
+  color: black;
+}
+
+/* User profile styling */
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.user-details h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.user-details p {
+  margin: 0;
+  font-size: 12px;
+  color: #95a5a6;
+}
+
+/* Status indicator styling */
+.status {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.dropdown-icon {
+  font-size: 12px;
+  cursor: pointer;
+  color: #34495e;
+}
+
+.w{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 8px;
+}

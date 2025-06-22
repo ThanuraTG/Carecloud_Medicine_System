@@ -1,0 +1,133 @@
+/* General Form Styling */
+.form-container-Add{
+  max-width: 1200px;
+  margin: 5px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 78%;
+  position: absolute;
+  top: 8%;
+  right: 1%;
+  border: 1px solid #ccc;
+
+}
+
+.Hadd {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.form-instruction-Add {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #0056b3;
+  background: #e9f5ff;
+  padding: px;
+  border-radius: 4px;
+}
+
+.form-section-Add{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Fieldset Styling */
+.fieldset-1 {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #fff;
+  max-width: 40%;
+}
+
+/* Fieldset Styling */
+.fieldset {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #fff;
+  
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* Buttons */
+.form-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-submit,
+.btn-clear {
+  background-color: #28a745;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.submit {
+  background-color: #28a745;
+
+}
+
+
+
+.btn-clear{
+  background-color: #dc3545;
+}
+
+
+.btn-clear:hover{
+  background-color:#dc3545;
+  transform: scale(1.1); /* Scale up the button on hover */
+
+}
+
+.btn-submit:hover {
+  background-color: #45a049;
+  transform: scale(1.1); /* Scale up the button on hover */
+}
+
